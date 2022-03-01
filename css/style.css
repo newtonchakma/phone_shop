@@ -1,0 +1,17 @@
+
+
+bodey{
+    font-family: Georgia, serif;
+}
+
+#header-title{
+    font-size:50px;
+    font-weight: 800;
+    font-family: Georgia, serif;
+}
+
+#show-phone{
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px 10px; */
+}
