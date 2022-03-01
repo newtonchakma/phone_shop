@@ -14,7 +14,7 @@ const displayAllPhone = phones =>{
 
 
 for(const phone of phones){
-
+console.log(phone);
     
     const parent = document.getElementById('show-phone');
 
@@ -27,7 +27,7 @@ for(const phone of phones){
       <h6 class="card-title">Phone name : ${phone.phone_name}</h6>
       
       <div class="card-footer mx-auto">
-      <button class="btn btn-primary w-100" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Details</button>
+      <button onclick="getPhoneDetails('${phone.slug}')" class="btn btn-primary w-100" type="button">Details</button>
    
     </div>
       
@@ -35,11 +35,22 @@ for(const phone of phones){
     </div>
     </div>`
     parent.appendChild(div)
-  
-
 
 }
 } 
+
+const getPhoneDetails =id =>{
+const url = `https://openapi.programming-hero.com/api/phone/${id}`
+fetch(url)
+.then(response => response.json())
+.then(data =>displayPhoneDetails(data))
+console.log(url);
+
+}
+
+const displayPhoneDetails = details =>{
+    
+}
 
 
     
