@@ -1,24 +1,30 @@
 
 
-bodey{
+body{
+background-color:#F8F8FF;
     font-family: Georgia, serif;
     margin: 0;
     padding: 0;
 }
 
+/* header style */
 #header-title{
     margin-top: 20px;
     font-size:60px;
     font-weight: 800;
     font-family: Georgia, serif;
 }
+/* error handle css */
 #error{
-    color: rgb(226, 102, 102);
+    
     display: none;
 }
 
 
-
-#show-phone{
-    
+/* phone details style */
+#show-phone .card {
+   width: 350px;
+}
+#show-phone .card img{
+    height: 450px;
 }
