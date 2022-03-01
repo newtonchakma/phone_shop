@@ -8,13 +8,17 @@ bodey{
 
 #header-title{
     margin-top: 20px;
-    font-size:50px;
+    font-size:60px;
     font-weight: 800;
     font-family: Georgia, serif;
 }
+#error{
+    color: rgb(226, 102, 102);
+    display: none;
+}
+
+
 
 #show-phone{
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px 10px; */
+    
 }
