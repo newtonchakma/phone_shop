@@ -1,10 +1,11 @@
 
 
 body{
-background-color:#F8F8FF;
+    background-color:#F8F8FF;
     font-family: Georgia, serif;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 /* header style */
@@ -16,6 +17,10 @@ background-color:#F8F8FF;
 }
 /* error handle css */
 #error{
+    
+    display: none;
+}
+#error2{
     
     display: none;
 }
