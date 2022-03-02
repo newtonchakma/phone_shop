@@ -17,15 +17,11 @@ body{
 }
 /* error handle css */
 #error{
-    
     display: none;
 }
 #error2{
-    
     display: none;
 }
-
-
 /* phone details style */
 #show-phone .card {
    width: 350px;
